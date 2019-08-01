@@ -1,0 +1,36 @@
+{
+  "name": "PPP ",
+  "children": [
+    { 
+      "name": "Current Data Workflow",
+      "children": [
+        { "name": "Preprocessing" },
+        { "name": "Deformation Estimation", 
+        "children": [
+          {"name": "Coherent Point Drift"}, 
+          {"name": "Non Linear Registration"}
+          ] }
+      ]
+    },
+    { "name": "Simulations", 
+    "children": [
+      {"name": "BiLinear & BiCubic Interpolation"},
+      {"name": "Semi Analyical Approach"}, 
+      {"name": "Mass Spring Models/ Position Based Dynamics"}, 
+      {"name": "Finite Element Models"}
+      ] 
+    },
+    { 
+      "name": "Data Workflow under Construction",
+      "children": [
+        { "name": "Preprocessing" },
+        { "name": "Deformation Estimation", 
+        "children": [
+          {"name": "Coherent Point Drift"}, 
+          {"name": "Non Linear Registration"},
+          {"name":}
+          ] }
+      ]
+    }
+  ]
+}
